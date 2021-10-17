@@ -1,27 +1,14 @@
-# SecurexFrontend
+SECUREX - PARTE - FRONTEND
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+FRONTEND SECUREX Consideraciones: Para la realización de este reto he utilizado tecnología  angular específicamente la version 10. También hemos utilizado angular material. PASO 1: Para desplegar el aplicativo necesitamos restaurar la carpeta node_modules con el comando npm install.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+PASO 2: Para visualizarlo en el navegador utilizamos el comando ng serve -o y con en la url http://localhost:4200/ podremos ver corriendo el proyecto.
 
-## Code scaffolding
+PASO 3: Para probar utilizaremos un usuario y contraseña que lo creamos en la parte backend.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+De ser correcto nos mostrara un dashboard con un formulario para registrar personas esto lo hicimos con la finalidad de mejorar el reto ya que solo se nos pedia mostrar mensaje de bienvenida y lo que hize es mandar a un mantenedor que me permitira registrar , actualizar o eliminar personas.
 
-## Build
+PASO 4: De ser el login incorrecto nos mostrar una alerta con mensaje de error 400.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+PASO 5 : Tenemos la opcion de cerrar la sesion para terminar nuestra sesion.
